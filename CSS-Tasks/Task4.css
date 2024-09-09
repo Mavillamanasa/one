@@ -1,0 +1,52 @@
+header {
+    background-color:aqua; 
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    background-color:lightblue; 
+    padding: 20px 0;
+}
+
+.box {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid wheat;
+    border-radius: 8px;
+    
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.box p{
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.box span{
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+footer {
+    background-color:aqua; 
+    color: white;
+    text-align: center;
+    padding: 10px ;
+    margin-top: 20px;
+}
